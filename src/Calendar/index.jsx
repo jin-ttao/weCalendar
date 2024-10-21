@@ -6,7 +6,7 @@ import NewEventButton from "../Button/NewEventButton";
 
 function Calendar() {
   return (
-    <>
+    <div className="flex">
       <Sidebar>
         <CalendarCheckList />
       </Sidebar>
@@ -14,7 +14,7 @@ function Calendar() {
         <Monthly />
         <NewEventButton />
       </MainArea>
-    </>
+    </div>
   );
 }
 
