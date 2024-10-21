@@ -2,15 +2,17 @@ import { Routes, Route } from 'react-router-dom'
 
 import Header from '../Header'
 import Home from '../Home'
-import '../App.css'
+import Calendar from '../Calendar'
+import '../index.css'
 
 function App() {
   return (
     <>
-    <div>App</div>
+    <p className="font-extrabold">App</p>
     <Header />
     <Routes>
       <Route path='/' exact element={<Home />} />
+      <Route path='calendar' exact element={<Calendar />} />
     </Routes>
     </>
   )
