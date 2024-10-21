@@ -1,6 +1,11 @@
+import LoginButton from "../Button/LoginButton";
+
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <h1>Home</h1>
+      <LoginButton />
+    </div>
   );
 }
 
