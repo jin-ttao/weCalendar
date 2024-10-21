@@ -1,7 +1,16 @@
-function Sidebar() {
+import PropTypes from 'prop-types';
+
+function Sidebar({ children }) {
   return (
-    <div>Sidebar</div>
+    <div>
+      <p>Sidebar</p>
+      {children}
+    </div>
   );
 }
 
 export default Sidebar;
+
+Sidebar.propTypes = {
+  children: PropTypes.node,
+};
