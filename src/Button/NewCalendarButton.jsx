@@ -1,7 +1,5 @@
 function NewCalendarButton() {
-  return (
-    <div>NewCalendarButton</div>
-  );
+  return <button className="border-2 border-gray-300">New Calendar</button>;
 }
 
 export default NewCalendarButton;
