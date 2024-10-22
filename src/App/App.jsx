@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 
 import Header from '../widgets/Header'
-import Home from '../Home'
+import Home from '../pages/Home'
 import Calendar from '../pages/Calendar'
 import '../index.css'
 import Monthly from '../widgets/Monthly'

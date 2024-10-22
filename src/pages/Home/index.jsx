@@ -1,4 +1,4 @@
-import LoginButton from "../shared/Button/LoginButton";
+import LoginButton from "../../shared/Button/LoginButton";
 
 function Home() {
   return (
