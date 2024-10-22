@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
 
-import Header from '../Header'
+import Header from '../widgets/Header'
 import Home from '../Home'
-import Calendar from '../Calendar'
+import Calendar from '../pages/Calendar'
 import '../index.css'
-import Monthly from '../Calendar/Monthly'
+import Monthly from '../widgets/Monthly'
 
 function App() {
   return (
